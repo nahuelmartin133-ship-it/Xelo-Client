@@ -213,7 +213,7 @@
         </provider>
 
         <provider
-    android:name=".utils.XeloDocumentsProvider"
+    android:name=".utils.Breaking CraftDocumentsProvider"
     android:authorities="com.origin.launcher.documents"
     android:exported="true"
     android:grantUriPermissions="true"

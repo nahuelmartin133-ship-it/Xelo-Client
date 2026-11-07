@@ -1,4 +1,4 @@
-package com.origin.launcher.Launcher.inbuilt.XeloOverlay.nativemod;
+package com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod;
 
 public class InbuiltModsNative {
     private static boolean libraryLoaded = false;
@@ -6,7 +6,7 @@ public class InbuiltModsNative {
     public static synchronized boolean loadLibrary() {
         if (libraryLoaded) return true;
         try {
-            System.loadLibrary("XeloOverlay");
+            System.loadLibrary("Breaking CraftOverlay");
             libraryLoaded = true;
             return true;
         } catch (UnsatisfiedLinkError e) {

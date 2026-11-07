@@ -18,7 +18,7 @@ import android.widget.TextView;
 import com.origin.launcher.R;
 import com.origin.launcher.Launcher.inbuilt.model.ModIds;
 import com.origin.launcher.Launcher.inbuilt.manager.InbuiltModManager;
-import com.origin.launcher.Launcher.inbuilt.XeloOverlay.nativemod.FpsMod;
+import com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod.FpsMod;
 
 public class FpsDisplayOverlay {
     private static final String TAG = "FpsDisplayOverlay";

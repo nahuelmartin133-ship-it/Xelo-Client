@@ -20,7 +20,7 @@ public class SupportFragment extends BaseThemedFragment {
     private MaterialCardView discordButton;
     private MaterialCardView donateButton;
     
-    private static final String GITHUB_URL = "https://github.com/Xelo-Client/Xelo-Client";
+    private static final String GITHUB_URL = "https://github.com/Breaking Craft-Client/Breaking Craft-Client";
     private static final String DISCORD_URL = "https://discord.gg/CHUchrEWwc";
     private static final String DONATE_URL = "https://xeloclient.in/donate.html";
     private static final String TAG = "SupportFragment";

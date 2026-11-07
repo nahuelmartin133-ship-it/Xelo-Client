@@ -7,8 +7,8 @@ import android.view.KeyEvent;
 import com.origin.launcher.R;
 import com.origin.launcher.Launcher.inbuilt.model.InbuiltMod;
 import com.origin.launcher.Launcher.inbuilt.model.ModIds;
-import com.origin.launcher.Launcher.inbuilt.XeloOverlay.nativemod.NameTagMod;
-import com.origin.launcher.Launcher.inbuilt.XeloOverlay.nativemod.MotionBlurMod;
+import com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod.NameTagMod;
+import com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod.MotionBlurMod;
 
 import java.util.ArrayList;
 import java.util.HashSet;

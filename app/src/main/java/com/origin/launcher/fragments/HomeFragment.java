@@ -127,7 +127,7 @@ public class HomeFragment extends BaseThemedFragment {
         dialogLayout.addView(titleText);
 
         TextView messageText = new TextView(requireContext());
-        messageText.setText("Xelo Client requires storage access to launch Minecraft and manage game files properly. Without this permission, the game cannot be launched.\n\nPlease grant storage permission to continue.");
+        messageText.setText("Breaking Craft requires storage access to launch Minecraft and manage game files properly. Without this permission, the game cannot be launched.\n\nPlease grant storage permission to continue.");
         messageText.setTextSize(14);
         messageText.setTextColor(ThemeManager.getInstance().getColor("onSurfaceVariant"));
         LinearLayout.LayoutParams msgParams = new LinearLayout.LayoutParams(
@@ -475,8 +475,8 @@ public class HomeFragment extends BaseThemedFragment {
             );
 
             shareIntent.putExtra(Intent.EXTRA_STREAM, fileUri);
-            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Xelo Client Logs");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "Xelo Client Latest Logs");
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Breaking Craft Logs");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "Breaking Craft Latest Logs");
             shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
             // Start the sharing activity
@@ -501,7 +501,7 @@ public class HomeFragment extends BaseThemedFragment {
         BufferedInputStream bufInStream = new BufferedInputStream(inStream);
         ZipInputStream inZipStream = new ZipInputStream(bufInStream);
         if (!checkLibCompatibility(inZipStream)) {
-            handler.post(() -> alertAndExit("Wrong minecraft architecture", "The minecraft you have installed does not support the same main architecture (" + Build.SUPPORTED_ABIS[0] + ") your device uses, Xelo client cant work with it"));
+            handler.post(() -> alertAndExit("Wrong minecraft architecture", "The minecraft you have installed does not support the same main architecture (" + Build.SUPPORTED_ABIS[0] + ") your device uses, Breaking Craft client cant work with it"));
             return false;
         }
         Method addNativePath = pathList.getClass().getDeclaredMethod("addNativePath", Collection.class);
