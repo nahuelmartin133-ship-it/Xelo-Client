@@ -309,7 +309,7 @@ public class MainActivity extends BaseThemedActivity {
                 .show();
     }
 
-    private void showThanksDialog(SharedPreferences prefs) {
+    private void showThanksDialog(SharedPreferences prefs) { if (true) return;
         LayoutInflater inflater = LayoutInflater.from(this);
         View customView = inflater.inflate(R.layout.dialog_credits, null);
 
