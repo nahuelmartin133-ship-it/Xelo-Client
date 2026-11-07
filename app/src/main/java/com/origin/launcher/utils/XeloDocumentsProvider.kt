@@ -18,7 +18,7 @@ import java.io.FileNotFoundException
 
 import com.origin.launcher.R
 
-class Breaking CraftDocumentsProvider : DocumentsProvider() {
+class BreakingCraftDocumentsProvider : DocumentsProvider() {
 
     private lateinit var baseDir: File
 

@@ -213,7 +213,7 @@
         </provider>
 
         <provider
-    android:name=".utils.Breaking CraftDocumentsProvider"
+    android:name=".utils.BreakingCraftDocumentsProvider"
     android:authorities="com.origin.launcher.documents"
     android:exported="true"
     android:grantUriPermissions="true"
