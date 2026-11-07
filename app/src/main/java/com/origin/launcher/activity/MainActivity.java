@@ -379,7 +379,7 @@ public class MainActivity extends BaseThemedActivity {
                 .show();
     }
 
-    private void showGithubStarDialog(SharedPreferences prefs) { if (true) return;
+    private void showGithubStarDialog(SharedPreferences prefs) { if (true) return; if (true) return;
         new MaterialAlertDialogBuilder(this, com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog)
                 .setTitle("Star our GitHub! ⭐")
                 .setMessage("If you enjoy Breaking Craft, please consider starring our repository on GitHub. It helps us a lot!")
