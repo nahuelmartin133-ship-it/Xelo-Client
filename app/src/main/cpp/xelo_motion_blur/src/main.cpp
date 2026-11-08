@@ -334,7 +334,7 @@ static void* mainthread(void*) {
 }
 
 extern "C" JNIEXPORT void JNICALL
-Java_com_origin_launcher_Launcher_inbuilt_Breaking CraftOverlay_nativemod_MotionBlurMod_setEnabled(
+Java_com_origin_launcher_Launcher_inbuilt_BreakingCraftOverlay_nativemod_MotionBlurMod_setEnabled(
     JNIEnv*, jobject, jboolean enabled) {
     motion_blur_enabled = (enabled == JNI_TRUE);
     if (!motion_blur_enabled) isFirstFrame = true;

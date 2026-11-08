@@ -6,7 +6,7 @@
 
 #include "pl/Gloss.h"
 
-#define LOG_TAG "Breaking Craftcounter"
+#define LOG_TAG "BreakingCraftcounter"
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
 
@@ -82,7 +82,7 @@ static bool hookEglSwapBuffers() {
 extern "C" {
 
 JNIEXPORT jboolean JNICALL
-Java_com_origin_launcher_Launcher_inbuilt_Breaking CraftOverlay_nativemod_FpsMod_nativeInit(JNIEnv* env, jclass clazz) {
+Java_com_origin_launcher_Launcher_inbuilt_BreakingCraftOverlay_nativemod_FpsMod_nativeInit(JNIEnv* env, jclass clazz) {
     if (g_initialized) {
         return JNI_TRUE;
     }
@@ -103,12 +103,12 @@ Java_com_origin_launcher_Launcher_inbuilt_Breaking CraftOverlay_nativemod_FpsMod
 }
 
 JNIEXPORT jint JNICALL
-Java_com_origin_launcher_Launcher_inbuilt_Breaking CraftOverlay_nativemod_FpsMod_nativeGetFps(JNIEnv* env, jclass clazz) {
+Java_com_origin_launcher_Launcher_inbuilt_BreakingCraftOverlay_nativemod_FpsMod_nativeGetFps(JNIEnv* env, jclass clazz) {
     return g_currentFps.load();
 }
 
 JNIEXPORT jboolean JNICALL
-Java_com_origin_launcher_Launcher_inbuilt_Breaking CraftOverlay_nativemod_FpsMod_nativeIsInitialized(JNIEnv* env, jclass clazz) {
+Java_com_origin_launcher_Launcher_inbuilt_BreakingCraftOverlay_nativemod_FpsMod_nativeIsInitialized(JNIEnv* env, jclass clazz) {
     return g_initialized ? JNI_TRUE : JNI_FALSE;
 }
 
