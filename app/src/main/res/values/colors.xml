@@ -30,6 +30,8 @@
     <color name="onSecondaryContainer">#FFFFFFFF</color>
     
     <color name="tertiary">#FF00AAAA</color> <!-- Diamante -->
+    <color name="tertiaryContainer">#FF5C3A1E</color>
+    <color name="onTertiaryContainer">#FFFFFFFF</color>
     <color name="onTertiary">#FFFFFFFF</color>
     
     <color name="error">#FFFF5555</color>
