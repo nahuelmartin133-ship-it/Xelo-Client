@@ -1,4 +1,4 @@
-package com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod;
+package com.origin.launcher.Launcher.inbuilt.BreakingCraftOverlay.nativemod;
 
 public class InbuiltModsNative {
     private static boolean libraryLoaded = false;
@@ -6,7 +6,7 @@ public class InbuiltModsNative {
     public static synchronized boolean loadLibrary() {
         if (libraryLoaded) return true;
         try {
-            System.loadLibrary("Breaking CraftOverlay");
+            System.loadLibrary("BreakingCraftOverlay");
             libraryLoaded = true;
             return true;
         } catch (UnsatisfiedLinkError e) {

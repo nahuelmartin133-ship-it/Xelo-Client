@@ -16,7 +16,7 @@ import com.origin.launcher.Launcher.inbuilt.overlay.QuickDropOverlay;
 import com.origin.launcher.Launcher.inbuilt.overlay.HotbarOneOverlay;
 import com.origin.launcher.Launcher.inbuilt.overlay.ToggleHudOverlay;
 import com.origin.launcher.Launcher.inbuilt.overlay.ZoomOverlay;
-import com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod.NameTagMod;
+import com.origin.launcher.Launcher.inbuilt.BreakingCraftOverlay.nativemod.NameTagMod;
 
 import java.util.ArrayList;
 import java.util.List;

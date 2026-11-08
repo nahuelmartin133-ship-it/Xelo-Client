@@ -95,7 +95,7 @@ public class DiscordLoginActivity extends BaseThemedActivity {
             settings.setSupportZoom(true);
             settings.setBuiltInZoomControls(true);
             settings.setDisplayZoomControls(false);
-            settings.setUserAgentString(settings.getUserAgentString() + " Breaking CraftClient/1.0");
+            settings.setUserAgentString(settings.getUserAgentString() + " BreakingCraftClient/1.0");
             
             // Clear existing data
             CookieManager.getInstance().removeAllCookies(null);
@@ -374,8 +374,8 @@ public class DiscordLoginActivity extends BaseThemedActivity {
         try {
             JSONObject properties = new JSONObject();
             properties.put("os", "Android");
-            properties.put("browser", "Breaking CraftClient");
-            properties.put("device", "Breaking CraftClient");
+            properties.put("browser", "BreakingCraftClient");
+            properties.put("device", "BreakingCraftClient");
             
             JSONObject data = new JSONObject();
             data.put("token", token);

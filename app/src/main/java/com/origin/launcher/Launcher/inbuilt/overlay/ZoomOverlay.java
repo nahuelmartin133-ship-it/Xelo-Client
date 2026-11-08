@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 import com.origin.launcher.R;
 import com.origin.launcher.Launcher.inbuilt.model.ModIds;
-import com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod.ZoomMod;
+import com.origin.launcher.Launcher.inbuilt.BreakingCraftOverlay.nativemod.ZoomMod;
 import com.origin.launcher.Launcher.inbuilt.manager.InbuiltModManager;
 
 public class ZoomOverlay extends BaseOverlayButton {

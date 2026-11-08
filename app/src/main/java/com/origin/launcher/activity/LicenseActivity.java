@@ -25,7 +25,7 @@ public class LicenseActivity extends AppCompatActivity {
         layout.setBackgroundColor(android.graphics.Color.parseColor("#3C3C3C")); // Color tierra
 
         android.widget.TextView title = new android.widget.TextView(this);
-        title.setText("Breaking Craft");
+        title.setText("BreakingCraft");
         title.setTextColor(android.graphics.Color.parseColor("#55FF55")); // Verde Minecraft
         title.setTextSize(32f);
         title.setGravity(android.view.Gravity.CENTER);

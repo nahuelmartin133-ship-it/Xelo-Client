@@ -133,7 +133,7 @@ public class ModulesFragment extends BaseThemedFragment {
         dialogLayout.addView(titleText);
 
         TextView messageText = new TextView(requireContext());
-        messageText.setText("Breaking Craft Modules need storage access to save and load your mod settings. Without this permission, your changes will not be saved.\n\nPlease grant storage permission to continue.");
+        messageText.setText("BreakingCraft Modules need storage access to save and load your mod settings. Without this permission, your changes will not be saved.\n\nPlease grant storage permission to continue.");
         messageText.setTextSize(14);
         messageText.setTextColor(ThemeManager.getInstance().getColor("onSurfaceVariant"));
         LinearLayout.LayoutParams msgParams = new LinearLayout.LayoutParams(
@@ -467,7 +467,7 @@ public class ModulesFragment extends BaseThemedFragment {
 
             moduleItems.add(new ModuleItem(
                     "Touch Modules",
-                    "Manage Breaking Craft touch mods (AutoSprint, Quick Drop, etc.)",
+                    "Manage BreakingCraft touch mods (AutoSprint, Quick Drop, etc.)",
                     "inbuilt_mods_entry"
             ));
 
@@ -480,7 +480,7 @@ public class ModulesFragment extends BaseThemedFragment {
             moduleItems.add(new ModuleItem("Classic Vanilla skins", "Disables the newly added skins by mojang", "classic_skins"));
             moduleItems.add(new ModuleItem("No flipbook animation", "optimizes your fps by disabling block animation", "no_flipbook_animations"));
             moduleItems.add(new ModuleItem("No Shadows", "optimizes your fps by disabling shadows", "no_shadows"));
-            moduleItems.add(new ModuleItem("Breaking Craft Title", "Changes the Start screen title image", "xelo_title"));
+            moduleItems.add(new ModuleItem("BreakingCraft Title", "Changes the Start screen title image", "xelo_title"));
             moduleItems.add(new ModuleItem("2x tpp view", "doubles your third person view radius, letting you see more than you're supposed to", "double_tppview"));
             moduleItems.add(new ModuleItem("White Block Outline", "changes the block selection outline to white", "white_block_outline"));
             moduleItems.add(new ModuleItem("No pumpkin overlay", "disables the dark blurry overlay when wearing pumpkin", "no_pumpkin_overlay"));

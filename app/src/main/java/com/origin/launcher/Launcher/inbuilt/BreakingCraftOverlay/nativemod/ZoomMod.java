@@ -1,4 +1,4 @@
-package com.origin.launcher.Launcher.inbuilt.Breaking CraftOverlay.nativemod;
+package com.origin.launcher.Launcher.inbuilt.BreakingCraftOverlay.nativemod;
 
 public class ZoomMod {
 

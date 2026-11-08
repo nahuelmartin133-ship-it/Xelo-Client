@@ -65,7 +65,7 @@ class BreakingCraftDocumentsProvider : DocumentsProvider() {
         row.add(DocumentsContract.Root.COLUMN_DOCUMENT_ID, getDocIdForFile(baseDir))
         row.add(DocumentsContract.Root.COLUMN_FLAGS, getRootFlags())
         row.add(DocumentsContract.Root.COLUMN_ICON, R.mipmap.ic_launcher)
-        row.add(DocumentsContract.Root.COLUMN_TITLE, "Breaking Craft")
+        row.add(DocumentsContract.Root.COLUMN_TITLE, "BreakingCraft")
         row.add(DocumentsContract.Root.COLUMN_SUMMARY, "External Storage")
         row.add(DocumentsContract.Root.COLUMN_MIME_TYPES, ALL_MIME_TYPES)
         row.add(DocumentsContract.Root.COLUMN_AVAILABLE_BYTES, baseDir.freeSpace)

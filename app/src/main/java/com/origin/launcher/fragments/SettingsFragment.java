@@ -390,7 +390,7 @@ public void onVersionSelected(GameVersion version) {
             }
             
             // Set initial presence when RPC connects
-            discordManager.updatePresence("Browsing Settings", "Configuring Breaking Craft");
+            discordManager.updatePresence("Browsing Settings", "Configuring BreakingCraft");
         }
     }
     

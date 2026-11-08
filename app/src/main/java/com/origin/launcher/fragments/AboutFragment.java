@@ -49,8 +49,8 @@ public class AboutFragment extends BaseThemedFragment {
     private LinearLayout githubButton;
     private LinearLayout discordButton;
     
-    private static final String GITHUB_API_URL = "https://api.github.com/repos/Breaking Craft-Client/Breaking Craft-Client/commits";
-    private static final String GITHUB_URL = "https://github.com/Breaking Craft-Client/Breaking Craft-Client";
+    private static final String GITHUB_API_URL = "https://api.github.com/repos/BreakingCraft-Client/BreakingCraft-Client/commits";
+    private static final String GITHUB_URL = "https://github.com/BreakingCraft-Client/BreakingCraft-Client";
     private static final String DISCORD_URL = "https://discord.gg/CHUchrEWwc";
     private static final String TAG = "AboutFragment";
     private ExecutorService executor;
@@ -123,11 +123,11 @@ public class AboutFragment extends BaseThemedFragment {
             String versionName = packageInfo.versionName;
             int versionCode = packageInfo.versionCode;
             
-            String versionInfo = "Breaking Craft v" + versionName + " (Build " + versionCode + ")";
+            String versionInfo = "BreakingCraft v" + versionName + " (Build " + versionCode + ")";
             versionText.setText(versionInfo);
         } catch (PackageManager.NameNotFoundException e) {
             Log.e(TAG, "Error getting app version", e);
-            versionText.setText("Breaking Craft - Version unavailable");
+            versionText.setText("BreakingCraft - Version unavailable");
         }
     }
     

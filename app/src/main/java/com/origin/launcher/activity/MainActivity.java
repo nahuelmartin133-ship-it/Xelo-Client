@@ -261,7 +261,7 @@ public class MainActivity extends BaseThemedActivity {
                                        boolean creditsShown,
                                        boolean githubStarShown) {
         new MaterialAlertDialogBuilder(this, com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog)
-                .setTitle("Welcome to Breaking Craft")
+                .setTitle("Welcome to BreakingCraft")
                 .setMessage("Launch Minecraft once before doing anything, to make the config load properly")
                 .setIcon(R.drawable.ic_info)
                 .setPositiveButton("Proceed", (dialog, which) -> {
@@ -382,10 +382,10 @@ public class MainActivity extends BaseThemedActivity {
     private void showGithubStarDialog(SharedPreferences prefs) { if (true) return; if (true) return;
         new MaterialAlertDialogBuilder(this, com.google.android.material.R.style.ThemeOverlay_Material3_MaterialAlertDialog)
                 .setTitle("Star our GitHub! ⭐")
-                .setMessage("If you enjoy Breaking Craft, please consider starring our repository on GitHub. It helps us a lot!")
+                .setMessage("If you enjoy BreakingCraft, please consider starring our repository on GitHub. It helps us a lot!")
                 .setIcon(R.drawable.ic_info) // You can change this to a star icon if you have one
                 .setPositiveButton("Star", (dialog, which) -> {
-                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Breaking Craft-Client/Breaking Craft-Client")); 
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/BreakingCraft-Client/BreakingCraft-Client")); 
                     startActivity(browserIntent);
                     dialog.dismiss();
                     prefs.edit().putBoolean(KEY_GITHUB_STAR_SHOWN, true).apply();
@@ -555,7 +555,7 @@ public class MainActivity extends BaseThemedActivity {
     protected void onResume() {
         super.onResume();
         
-        DiscordRPCHelper.getInstance().updatePresence("Using Breaking Craft", "Using the best MCPE Client");
+        DiscordRPCHelper.getInstance().updatePresence("Using BreakingCraft", "Using the best MCPE Client");
     }
     
     @Override
@@ -618,7 +618,7 @@ public class MainActivity extends BaseThemedActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        DiscordRPCHelper.getInstance().updatePresence("Breaking Craft", "Using the best MCPE Client");
+        DiscordRPCHelper.getInstance().updatePresence("BreakingCraft", "Using the best MCPE Client");
     }
 
     @Override

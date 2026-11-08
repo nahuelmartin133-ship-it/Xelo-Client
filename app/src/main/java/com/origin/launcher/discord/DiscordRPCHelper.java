@@ -76,7 +76,7 @@ public class DiscordRPCHelper {
      * Update presence for idle state
      */
     public void updateIdlePresence() {
-        updatePresence("Using Breaking Craft", "Idle");
+        updatePresence("Using BreakingCraft", "Idle");
     }
     
     /**
